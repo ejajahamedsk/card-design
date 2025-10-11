@@ -1,0 +1,80 @@
+@font-face {
+    font-family: girl;
+    src: url(./Beautiful\ Holiday.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#maintext{
+    text-align: center;
+    font-size: 70px;
+    font-family: girl;
+    color: rgb(255, 0, 230);
+    background-color: rgb(255, 230, 250);
+;
+}
+#main{
+    
+    background-color: rgb(255, 230, 250);
+    padding: 20px;
+    display: flex;
+    gap: 20px ;
+    flex-wrap: wrap;
+}
+.card{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.534);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.card img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.card h2{
+    font-weight: 900;
+    font-size: 36px;
+    color: rgb(255, 0, 230);
+    font-family: girl;
+}
+.card p{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+.card button{
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: rgb(255, 0, 0);
+    border: 2px solid red;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.card button:hover{
+    background-color: transparent;
+    color: red;
+    border: 2px solid red;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
