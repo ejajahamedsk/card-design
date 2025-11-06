@@ -16,7 +16,7 @@ html,body{
     text-align: center;
     font-size: 70px;
     font-family: girl;
-    color: rgb(255, 0, 230);
+    color: rgba(255, 0, 230, 0.891);
     background-color: rgb(255, 230, 250);
 ;
 }
